@@ -5,4 +5,5 @@ export type UserProps = {
     followers: number;
     following: number;
     bio: string;
+    repos_url: string;
 }

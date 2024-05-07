@@ -10,6 +10,7 @@ const User = ({
     following,
     location,
     bio,
+    repos_url,
 }: UserProps) => {
     return <div className={classes.user}>
         <img src={avatar_url} alt={login} />
