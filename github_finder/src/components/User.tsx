@@ -9,10 +9,19 @@ const User = ({
     followers,
     following,
     location,
+    bio,
 }: UserProps) => {
     return <div className={classes.user}>
         <img src={avatar_url} alt={login} />
         <h2>{login}</h2>
+        {bio && (
+            <p className={classes.bio}>
+            <span>
+                {bio}
+            </span>
+        </p>
+        )}
+
         {location && (
             <p className={classes.location}>
             <MdLocationPin />
