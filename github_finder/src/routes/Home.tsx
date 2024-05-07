@@ -1,4 +1,3 @@
-
 import { UserProps } from "../types/user";
 import Search from "../components/Search";
 import { useState } from "react";
